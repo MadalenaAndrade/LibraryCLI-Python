@@ -4,15 +4,15 @@
 While the project was designed for learning purposes, others are welcome to use or experiment with it.
 
 ## 📂 Project Structure
-- `/cli/cli.py` -> Main CLI handler
-- `/cli/commands.py` -> Command definitions
-- `/database/dbconnection.py` -> Connection details and logic to interact with SQL Server
-- `/localization/localization.py` -> Localization logic and JSON loading
-- `/validation/validation.py` -> Functions for validating user inputs
-- `MyLibraryCLI.py` -> Main file to run the CLI
-- `MyLibraryCLI_default.json` -> Default localization file
-- `MyLibraryCLI_en.json` -> English localization file
-- `MyLibraryCLI_pt.json` -> Portuguese localization file
+- [`/cli/cli.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/cli/cli.py) -> Main CLI handler
+- [`/cli/commands.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/cli/commands.py) -> Command definitions
+- [`/database/dbconnection.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/tree/main/database) -> Connection details and logic to interact with SQL Server
+- [`/localization/localization.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/tree/main/localization) -> Localization logic and JSON loading
+- [`/validation/validation.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/tree/main/validation) -> Functions for validating user inputs
+- [`MyLibraryCLI.py`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/MyLibraryCLI.py) -> Main file to run the CLI
+- [`MyLibraryCLI_default.json`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/MyLibraryCLI_default.json) -> Default localization file
+- [`MyLibraryCLI_en.json`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/MyLibraryCLI_en.json) -> English localization file
+- [`MyLibraryCLI_pt.json`](https://github.com/MadalenaAndrade/LibraryCLI-Python/blob/main/MyLibraryCLI_pt.json) -> Portuguese localization file
 
 ## 🚀 About This Project
 ### Key Features:
@@ -32,7 +32,7 @@ While the project was designed for learning purposes, others are welcome to use 
 ## ⚙️ Prerequisites
 - Python 3.6+ (recommended)
 - SQL Server (installed and running)
-- SQL Server connection information (input manually on `dbconnection.py`)
+- SQL Server database connection information (input manually on `dbconnection.py`)
 - Required Python libraries:
 
     `pyodbc`: To connect to SQL Server
@@ -47,7 +47,7 @@ pip install pyodbc argparse regex
 ```
 
 ### 🗃️ Database
-The database used for this project can be found in the [here](link). You can set it up and test the functionality if you wish.
+The database used for this project can be found in the [here](https://github.com/MadalenaAndrade/LibraryDB-SQL-Scripts). You can set it up and test the functionality if you wish.
 
 ## 📝 Usage
 This project is designed to be used via the command line. To get more information about the available commands and arguments, simply run:
